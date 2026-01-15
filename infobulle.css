@@ -21,10 +21,8 @@ overflow: hidden;
 z-index: 20;
 text-align: left;
 border-radius: 10px;
-opacity: 0;
-visibility: hidden;
-pointer-events: none;         /* empêche l'interaction quand invisible */
-transition: opacity 0.4s ease, visibility 0s linear 0.4s; /* le visibility revient après la fin du fade */
+-webkit-transition: all 1.5s ease;
+transition: all 1.5s ease;
 }
 /*Apparition de l'infobulle au survol*/
 .nu_infobulle:hover .nu_bulle{
@@ -35,7 +33,4 @@ border-width: 1px;
 max-height: 150px; 
 overflow-y: auto; 
 overflow-x: hidden;
-opacity: 1;
-visibility: visible;
-transition-delay: 0s;         /* annule le délai au hover */
 }
