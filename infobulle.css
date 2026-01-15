@@ -26,12 +26,12 @@ transition: all 1.5s ease;
 }
 /*Apparition de l'infobulle au survol*/
 .nu_infobulle:hover .nu_bulle{
-width: 250px;
-height: 300px;
+width: 125px;
+height: 150px;
 padding: 5px;
 position: absolute;
 border-width: 1px;
-max-height: 300px; 
+max-height: 150px; 
 overflow-y: auto; 
 overflow-x: hidden;
 }
