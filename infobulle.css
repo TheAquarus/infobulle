@@ -17,7 +17,7 @@ height: 0px;
 position: fixed;
 top: 10px;
 left: 10px;
-transform: translate(10,10);
+transform: translate(0,0);
 overflow: hidden;
 z-index: 999999;
 text-align: left;
