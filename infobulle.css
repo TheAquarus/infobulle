@@ -1,6 +1,6 @@
 /*Bloc qui contient l'image et l'infobulle*/
 .nu_infobulle{
-width: 25px;
+width: 100px;
 padding: 0px;
 position: relative;
 margin-top: -15px; 
