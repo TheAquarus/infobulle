@@ -14,7 +14,7 @@ color: #c4c4c4;
 font-size: 11px
 width: 0px;
 height: 0px;
-position: absolute;
+position: fixed;
 top: 10px;
 left: 10px;
 overflow: hidden;
