@@ -4,7 +4,7 @@ width: 100px;
 padding: 0px;
 position: relative;
 margin-top: -15px; 
-margin-left: 250px;
+margin-left: 310px;
 }
 /*Infobulle*/
 .nu_bulle{
@@ -15,7 +15,7 @@ width: 0px;
 height: 0px;
 position: absolute;
 top: 10px;
-left: 10px;
+left: -50px;
 overflow: hidden;
 z-index: 20;
 text-align: left;
